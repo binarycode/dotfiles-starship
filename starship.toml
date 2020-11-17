@@ -1,0 +1,3 @@
+# git_status is painfully slow in large repos
+[git_status]
+disabled = true
