@@ -1,3 +1,6 @@
+[directory]
+readonly = "RO"
+
 # git_status is painfully slow in large repos
 [git_status]
 disabled = true
@@ -5,6 +8,25 @@ disabled = true
 [hostname]
 ssh_only = false
 format = "@[$hostname]($style):"
+
+[nix_shell]
+symbol = "NIX-SHELL"
+
+[package]
+symbol = ""
+
+[ruby]
+symbol = "RUBY "
+
+[rust]
+symbol = "RUST "
+
+[status]
+disabled = false
+symbol = "E"
+
+[time]
+disabled = false
 
 [username]
 format = "[$user]($style)"
