@@ -1,5 +1,5 @@
 [directory]
-readonly = "RO"
+read_only = "RO"
 
 # git_status is painfully slow in large repos
 [git_status]
