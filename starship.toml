@@ -15,6 +15,9 @@ symbol = "NIX-SHELL"
 [package]
 symbol = ""
 
+[python]
+symbol = "PYTHON "
+
 [ruby]
 symbol = "RUBY "
 
