@@ -1,3 +1,6 @@
+[battery]
+disabled = true
+
 [directory]
 read_only = "RO"
 
@@ -5,12 +8,18 @@ read_only = "RO"
 [git_status]
 disabled = true
 
+[golang]
+symbol = "GOLANG "
+
 [hostname]
 ssh_only = false
 format = "@[$hostname]($style):"
 
 [nix_shell]
-symbol = "NIX-SHELL"
+symbol = "NIX-SHELL "
+
+[nodejs]
+symbol = "NODEJS "
 
 [package]
 symbol = ""
@@ -30,6 +39,8 @@ symbol = "E"
 
 [time]
 disabled = false
+format = "[$time]($style) "
 
 [username]
 format = "[$user]($style)"
+show_always = true
