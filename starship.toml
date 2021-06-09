@@ -2,7 +2,9 @@
 disabled = true
 
 [directory]
-read_only = "RO"
+truncation_length = 8
+truncation_symbol = ".../"
+read_only = " RO"
 
 # git_status is painfully slow in large repos
 [git_status]
